@@ -1,0 +1,20 @@
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.exe.config
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.csprojResolveAssemblyReference.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.Properties.Resources.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.csproj.GenerateResource.Cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.pdb
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.exe.config
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.exe
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.pdb
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.Properties.Resources.resources
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.exe
+C:\Users\Дмитрий\Desktop\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.pdb

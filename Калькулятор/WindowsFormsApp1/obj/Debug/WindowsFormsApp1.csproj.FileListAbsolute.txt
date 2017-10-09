@@ -1,0 +1,10 @@
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.exe.config
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\bin\Debug\Калькулятор.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\1 калькулятор\Калькулятор\WindowsFormsApp1\obj\Debug\Калькулятор.Properties.Resources.resources
