@@ -9,3 +9,14 @@ C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET requ
 C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csproj.CoreCompileInputs.cache
 C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.exe
 C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 4 GET request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.pdb
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\bin\Debug\Lab 4 GET request.exe.config
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\bin\Debug\Lab 4 GET request.exe
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\bin\Debug\Lab 4 GET request.pdb
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\bin\Debug\xNet.dll
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csprojResolveAssemblyReference.cache
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab_4_GET_request.Form1.resources
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab_4_GET_request.Properties.Resources.resources
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csproj.GenerateResource.Cache
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.csproj.CoreCompileInputs.cache
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.exe
+C:\SAPKIS github\SAPKIS\Lab 4 POST request\Lab 4 GET request\Lab 4 GET request\obj\Debug\Lab 4 GET request.pdb

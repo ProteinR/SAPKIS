@@ -27,8 +27,8 @@ namespace Lab_4_GET_request
                 var reqParams = new RequestParams();
                 request.CharacterSet = Encoding.GetEncoding(1251);
 
-                reqParams["user"] = "Михов А.А.";
-                reqParams["pass"] = "k272";
+                reqParams["user"] = "Мемрук";
+                reqParams["pass"] = "777";
 
                 string content = request.Post(
                     "http://www.zapomnika.zzz.com.ua/Lab4.php", reqParams).ToString();
