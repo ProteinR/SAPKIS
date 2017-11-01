@@ -25,7 +25,6 @@ namespace key_preview {
 		}
 
         private void Form1_Load(object sender, EventArgs e) {
-            
             gkh.HookedKeys.Add(Keys.A);
             gkh.HookedKeys.Add(Keys.B);
             gkh.HookedKeys.Add(Keys.C); // - C
@@ -33,31 +32,27 @@ namespace key_preview {
             gkh.HookedKeys.Add(Keys.LControlKey); //левый Ctrl
 
             //ряд цифр
-            gkh.HookedKeys.Add(Keys.D1);
-            gkh.HookedKeys.Add(Keys.D2);
-            gkh.HookedKeys.Add(Keys.D3);
-            gkh.HookedKeys.Add(Keys.D4);
-            gkh.HookedKeys.Add(Keys.D5);
-            gkh.HookedKeys.Add(Keys.D6);
-            gkh.HookedKeys.Add(Keys.D7);
-            gkh.HookedKeys.Add(Keys.D8);
-            gkh.HookedKeys.Add(Keys.D9);
+            Keys[] k = new Keys[10];
+                k[0] = Keys.D0;
+                k[1] = Keys.D1;
+                k[2] = Keys.D2;
+                k[3] = Keys.D3;
+                k[4] = Keys.D4;
+                k[5] = Keys.D5;
+                k[6] = Keys.D6;
+                k[7] = Keys.D7;
+                k[8] = Keys.D8;
+                k[9] = Keys.D9;
+            for(int i=0; i<10; i++) //хук на ряд цифр
+            {
+                gkh.HookedKeys.Add(k[i]);
+            }
 
-            gkh.KeyDown += new KeyEventHandler(gkh_KeyDown);
+            //gkh.HookedKeys.Add(Keys.D1);
+
+            gkh.KeyDown += new KeyEventHandler(gkh_KeyDown); //события
             gkh.KeyUp += new KeyEventHandler(gkh_KeyUp);
-            
-            //ненужный массив
-            Char[] chars = {
-                'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L',
-                'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Y',
-                'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
-            };
 
-            //for (int i=0; i<32; i++)
-            //{
-            //    Char symbol = chars[i];
-            //    gkh.HookedKeys.Add(Keys.symbol); 
-            //}
 		}
         protected override void OnKeyDown(KeyEventArgs e)
         {
@@ -86,27 +81,38 @@ namespace key_preview {
             //проверка - нажата ли комбинация
             if (CTRL && C)
             {
-                textBox1.Text += "Ctrl+C pressed";
+                textBox1.Text += "Ctrl+C pressed"+ Environment.NewLine;
                 String lastClipboar = Clipboard.GetText(); //записали значение буфера в переменную
                 //Array.add(clipboard, lastClipboar);  //добавляем значение буфера в конец 
                 //MessageBox.Show("Ctrl+C");
 
-                if (clipCount < 9) //если есть место в буфере - записали в конец крайнее копирование
+                if (clipCount < 10) //если есть место в буфере - записали в конец крайнее копирование
                 {
-                    clipboard[clipCount + 1] = lastClipboar; 
+                    clipboard[clipCount + 1] = lastClipboar;
+                    clipCount++;
+                }
+                else //сдвиг массива
+                {
+                    clipboard[clipCount] = clipboard[clipCount + 1];
+                    clipboard[10] = lastClipboar;
                 }
 
             }
-            //else if (CTRL && V) //простая комбинация ctrl+v
-            //{
-            //    textBox1.Text += "Ctrl+V pressed";
-            //}
-            else if (CTRL && V && e.KeyCode == Keys.D1)
+
+            if (CTRL && V ) //вставить весь массив
             {
-                textBox1.Text += "Ctrl+V - cупер комбинация была нажата";
-                textBox1.Text += "Ctrl+V" + e.KeyCode.ToString() +  " pressed";
+                //textBox1.Text += "Ctrl+V" + Environment.NewLine;
+                Clipboard.SetText(string.Concat(clipboard)); // вставка нужного значения в буфер обмена
             }
 
+            if (CTRL && V && e.KeyCode == Keys.D1) //D1, D2, D3... D9
+            {
+                textBox1.Text += "Ctrl+V" + e.KeyCode.ToString() + " - cупер комбинация была нажата" + Environment.NewLine;
+                //Clipboard.SetText(clipboard.ToString()); // вставка нужного значения в буфер обмена
+            }
+
+
+            e.Handled = false; //Если false, то отправляем событие дальше
             e.Handled = false; //Если false, то отправляем событие дальше
         }
 
@@ -140,5 +146,6 @@ namespace key_preview {
             lstLog.Items.Clear();
             textBox1.Clear();
         }
+
     }
 }
