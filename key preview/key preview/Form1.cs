@@ -8,11 +8,34 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Utilities;
 using System.Collections.Generic;
+using System.Threading;
+
+using System.Diagnostics;
+using System.IO;
 
 namespace key_preview
 {
+    //проверка на запущенную копию
+    
+
     public partial class Form1 : Form
     {
+        /*
+        private static Mutex m_instance;
+        private const string m_appName = "key preview";
+
+        /// <summary>
+        /// попытка установить Mutex
+        /// </summary>
+        /// <returns></returns>
+        private static bool SetMutexFailed()
+        {
+            bool tryCreateNewApp;
+            m_instance = new Mutex(true, m_appName, out tryCreateNewApp);
+            return !tryCreateNewApp;
+        }
+        */
+
         globalKeyboardHook gkh = new globalKeyboardHook();
 
         bool C = false;
@@ -26,13 +49,23 @@ namespace key_preview
         String[] clipboard = new String[10]; //массив с содержимым буфера обмена
         int clipCount = 0; //кол-во элементов в массиве
 
+        //bool onlyInstance;
+        //private const string AppMutexName = "SingleApp"; //название мютекса в системе   
+
         public Form1()
         {
+            //
+            
+
+            //
             InitializeComponent();
+
         }
 
         private void Form1_Load(object sender, EventArgs e) //хук на необходимые клавишы
         {
+
+
             gkh.HookedKeys.Add(Keys.A);
             gkh.HookedKeys.Add(Keys.D);
             gkh.HookedKeys.Add(Keys.C); // - C
@@ -128,16 +161,16 @@ namespace key_preview
         void gkh_KeyUp(object sender, KeyEventArgs e)//события на key up
         {
             Keys[] k = new Keys[10];
-            k[0] = Keys.D0;
-            k[1] = Keys.D1;
-            k[2] = Keys.D2;
-            k[3] = Keys.D3;
-            k[4] = Keys.D4;
-            k[5] = Keys.D5;
-            k[6] = Keys.D6;
-            k[7] = Keys.D7;
-            k[8] = Keys.D8;
-            k[9] = Keys.D9;
+                k[0] = Keys.D0;
+                k[1] = Keys.D1;
+                k[2] = Keys.D2;
+                k[3] = Keys.D3;
+                k[4] = Keys.D4;
+                k[5] = Keys.D5;
+                k[6] = Keys.D6;
+                k[7] = Keys.D7;
+                k[8] = Keys.D8;
+                k[9] = Keys.D9;
 
             //добавление в массив при копировании
             if (CTRL && C)
@@ -163,7 +196,6 @@ namespace key_preview
                     }
                     clipboard[9] = lastClipboar;
                 }
-
             }
 
             //запись нужного элемента в буфер обмена
@@ -172,11 +204,18 @@ namespace key_preview
                 // 0 
                 if (CTRL && D && e.KeyCode == k[0] || RCTRL && e.KeyCode == k[0] || RALT && e.KeyCode == k[0])
                 {
-                    //String clip0 = clipboard[0]; 
-                    //Console.WriteLine("Нулевой элемент массива - " + clip0);
-                    Clipboard.Clear();
-                    Clipboard.SetText(clipboard[0]); // вставка нужного значения в буфер обмена
-                    SendKeys.Send("^V");
+                    try
+                    {
+                        Console.WriteLine("Нулевой элемент массива - " + clipboard[0]);
+                        Clipboard.Clear();
+                        //Thread.Sleep(500);
+                        Clipboard.SetText(clipboard[0]); // вставка нужного значения в буфер обмена
+                        //Thread.Sleep(1000);
+                        SendKeys.Send("^V");
+                    }catch(Exception ex) {
+                        Console.WriteLine("Exception ");
+                        SendKeys.Send("^V"); 
+                    }
                 }
                 // 1
                 if ((CTRL && D && e.KeyCode == k[1]) || RCTRL && e.KeyCode == k[1] || RALT && e.KeyCode == k[1])
@@ -184,7 +223,7 @@ namespace key_preview
                     //Console.WriteLine(clipboard[1]);
                     Clipboard.Clear();
                     Clipboard.SetText(clipboard[1]); // вставка нужного значения в буфер обмена
-                    SendKeys.Send("^{V}");
+                    SendKeys.Send("^(V)");
                 }
                 // 2
                 if (CTRL && D && e.KeyCode == k[2] || RCTRL && e.KeyCode == k[2] || RALT && e.KeyCode == k[2])
