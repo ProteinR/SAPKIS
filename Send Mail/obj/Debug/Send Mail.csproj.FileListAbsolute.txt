@@ -1,0 +1,10 @@
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\bin\Debug\Send Mail.exe.config
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\bin\Debug\Send Mail.exe
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\bin\Debug\Send Mail.pdb
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send_Mail.Form1.resources
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send_Mail.Properties.Resources.resources
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.csproj.GenerateResource.Cache
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.csproj.CoreCompileInputs.cache
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.exe
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.pdb
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send_Mail.AuthForm.resources
