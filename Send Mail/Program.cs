@@ -13,6 +13,7 @@ namespace Send_Mail
     {
         public static string login;
         public static string pass;
+        public static bool authNormal = true;
 
         public static bool IsValidEmail(string strIn) //проверка мейла на корректность
         {

@@ -8,3 +8,5 @@ C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.csproj.CoreCompil
 C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.exe
 C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.pdb
 C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send_Mail.AuthForm.resources
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send Mail.csprojResolveAssemblyReference.cache
+C:\SAPKIS github\SAPKIS\SendMail\Send Mail\obj\Debug\Send_Mail.Address_Book.resources
