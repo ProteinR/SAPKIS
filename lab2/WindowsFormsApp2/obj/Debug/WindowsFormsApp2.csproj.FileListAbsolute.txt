@@ -1,0 +1,29 @@
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+c:\users\валик\documents\visual studio 2017\Projects\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Дмитрий\Desktop\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.Cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Лаб 3 файлы Валик\csarp-course-02-treeView-master\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
