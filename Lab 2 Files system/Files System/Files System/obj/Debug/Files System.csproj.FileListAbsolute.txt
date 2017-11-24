@@ -1,0 +1,10 @@
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\bin\Debug\Files System.exe.config
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\bin\Debug\Files System.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\bin\Debug\Files System.pdb
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files System.csprojResolveAssemblyReference.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files_System.Form1.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files_System.Properties.Resources.resources
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files System.csproj.GenerateResource.Cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files System.csproj.CoreCompileInputs.cache
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files System.exe
+C:\Study ONAPT\Лабы, Методички\Сапкис лабы\Lab 2 Files system\Files System\Files System\obj\Debug\Files System.pdb
