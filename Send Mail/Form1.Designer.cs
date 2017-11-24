@@ -204,9 +204,9 @@
             // button9
             // 
             this.button9.AutoSize = true;
-            this.button9.Location = new System.Drawing.Point(368, 362);
+            this.button9.Location = new System.Drawing.Point(368, 383);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(158, 54);
+            this.button9.Size = new System.Drawing.Size(158, 33);
             this.button9.TabIndex = 15;
             this.button9.Text = "Прикрепить файл";
             this.button9.UseVisualStyleBackColor = true;

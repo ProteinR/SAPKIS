@@ -9,11 +9,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Send_Mail
 {
     public partial class Address_Book : Form
     {
-
+        public static string Emailtext;
         public Address_Book()
         {
             InitializeComponent();
@@ -30,7 +31,7 @@ namespace Send_Mail
                 return;
             }
 
-                String contact = contactEmail + " - " + contactName;
+            String contact = contactEmail + " - " + contactName;
 
             if (!(listBox1.FindString(contact) >= 0)) // добавлем контакт, если он уникален
             {
@@ -58,7 +59,7 @@ namespace Send_Mail
 
         private void listBox1_DoubleClick(object sender, EventArgs e)
         {
-            
+
         }
 
         private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -68,11 +69,14 @@ namespace Send_Mail
             string[] listBoxData = stringFromListBox.Split(' '); //0 элемент - почта, 1 элемент - мусор
 
 
-            Console.WriteLine("клик по элементу '"+listBoxData[0]+"'");
-            Form1 mainForm1 = new Form1(); //инициализация объекта главной формы для доступа к элементам
+            Console.WriteLine("клик по элементу '" + listBoxData[0] + "'");
+            //работает!       Form1.emailtext.Text = this.listBox1.SelectedItem.ToString(); //работает!
+            Form1.emailtext.Text = listBoxData[0]; //работает!
+        }
 
-            mainForm1.setEmail(listBoxData[0]); //не работает
-            mainForm1.textBox1.Text = this.listBox1.SelectedItem.ToString(); //не работает
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

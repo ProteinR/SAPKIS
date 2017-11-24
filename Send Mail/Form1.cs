@@ -24,7 +24,7 @@ namespace Send_Mail
         String body;
         String attachment;
         //String histrySendMailAdress;
-
+        public static TextBox emailtext;
         public Form1()
         {
             InitializeComponent();
@@ -49,8 +49,9 @@ namespace Send_Mail
             if (textBox3.Text.Length == 0)
             {
                 attachment = null;
-            }else { attachment = textBox3.Text; }
-            progressBar1.Value = 30; 
+            }
+            else { attachment = textBox3.Text; }
+            progressBar1.Value = 30;
 
 
             if (!Email.IsValidEmail(mailTo)) //проверка на корректность адреса
@@ -60,15 +61,15 @@ namespace Send_Mail
                 return;
             }
 
-            File.AppendAllText(Directory.GetCurrentDirectory()+ @"\"+Email.login+ "HistorymailTo", mailTo + Environment.NewLine); // записываем почту в файл с историей отправки
+            File.AppendAllText(Directory.GetCurrentDirectory() + @"\" + Email.login + "HistorymailTo", mailTo + Environment.NewLine); // записываем почту в файл с историей отправки
             textBox1.AutoCompleteCustomSource.Add(mailTo); // добавляем адрес на который отправили в список автодополнения текстбокса
-            
+
             progressBar1.Value = 50;
 
             button1.Enabled = false;
             //всё нормально - отправляем
             backgroundWorker1.RunWorkerAsync();
-            
+
             while (backgroundWorker1.IsBusy)
             {
                 Thread.Sleep(50);
@@ -84,6 +85,8 @@ namespace Send_Mail
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            emailtext = this.textBox1;
+           
             if (File.Exists(Directory.GetCurrentDirectory() + @"\" + Email.login + "HistorymailTo")) //подставляем значение из сохраннного файла
             {
                 String[] tempArr = File.ReadAllLines(Directory.GetCurrentDirectory() + "\\" + Email.login + "HistorymailTo"); //получаем весь файл в стрингу
@@ -91,7 +94,7 @@ namespace Send_Mail
                 {
                     Console.WriteLine(oneEmail);
                 }
-                
+
                 textBox1.AutoCompleteCustomSource.AddRange(tempArr);
             }
         }
@@ -147,7 +150,8 @@ namespace Send_Mail
             {
                 string temp = "<a =\"вашаСсылка\">" + richTextBox1.SelectedText + "</a>";
                 richTextBox1.SelectedText = temp;
-            }else
+            }
+            else
             {
                 string temp = "<a =\"вашаСсылка\">" + "текстСсылки" + "</a>";
                 richTextBox1.SelectedText = temp;
@@ -188,10 +192,11 @@ namespace Send_Mail
                 float fileLength = fi.Length;
                 textBox3.BackColor = DefaultBackColor;
 
-                if (fileLength < 1024*1024)
+                if (fileLength < 1024 * 1024)
                 {
                     textBox3.Text = filePath;
-                }else
+                }
+                else
                 {
                     textBox3.Clear();
                     //textBox3.BackColor = Color.LightPink;
@@ -209,7 +214,7 @@ namespace Send_Mail
             temp = "<ul>" + Environment.NewLine;
             foreach (String str in tempArrLi)
             {
-                temp += "<li>" +str +"</li>" + Environment.NewLine;
+                temp += "<li>" + str + "</li>" + Environment.NewLine;
             }
             temp += "</ul>";
 
